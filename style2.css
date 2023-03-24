@@ -118,4 +118,47 @@ body {
     font-size: 14px;
     line-height: 1.5;
   }
-  
+
+  @media (max-width: 767px) {
+    header {
+      flex-direction: column;
+    }
+    .logo {
+      margin: 20px 0;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin: 10px 0;
+    }
+    .search-form {
+      margin: 20px 0;
+    }
+    .search-form input[type="text"] {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+    .search-form button[type="submit"] {
+      width: 100%;
+      border-radius: 0 0 5px 5px;
+    }
+    main {
+      flex-direction: column;
+    }
+    .featured-article {
+      flex: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .article-preview-container {
+      flex: none;
+      width: 100%;
+    }
+    .article-preview {
+      width: 100%;
+    }
+  }
