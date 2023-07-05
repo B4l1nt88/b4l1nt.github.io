@@ -1,0 +1,27 @@
+h1 {
+  color: blue;
+}
+
+button {
+  background-color: yellow;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#valtozo-terulet {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
